@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { PeopleReducer } from '../DataTable'
+import { PeopleReducer } from './reducers'
 
 export default combineReducers({
   people: PeopleReducer
